@@ -5,7 +5,7 @@ const header = document.querySelector('header');
 title.addEventListener('click', event => {
   const color = header.style.backgroundColor;
   console.log(color);
-  if(color == 'rgb(64, 40, 128)') {
+  if(color == 'rgb(64, 40, 128)' || color == '#402880') {
     header.style.backgroundColor = '#f4f4f4';
     header.style.color = 'black';
   } else {
